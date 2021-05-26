@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/Mybatis-Study.iml" filepath="$PROJECT_DIR$/Mybatis-Study/Mybatis-Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-01/mybatis-01.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-01/mybatis-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-02/mybatis-02.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-02/mybatis-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-03/mybatis-03.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-03/mybatis-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-04/mybatis-04.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-04/mybatis-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-05/mybatis-05.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-05/mybatis-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-06/mybatis-06.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-06/mybatis-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-07/mybatis-07.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-07/mybatis-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-08/mybatis-08.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-08/mybatis-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Study/mybatis-09/mybatis-09.iml" filepath="$PROJECT_DIR$/Mybatis-Study/mybatis-09/mybatis-09.iml" />
+    </modules>
+  </component>
+</project>

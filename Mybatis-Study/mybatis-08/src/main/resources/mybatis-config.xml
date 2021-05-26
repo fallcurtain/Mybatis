@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--可以引入外部配置文件，也可以在其中增加一些属性 如：username，password
+      如果两个文件有同一个字段 如：username，password，优先使用外部配置文件-->
+
+    <!--引入外部配置文件-->
+    <properties resource="db.properties">
+        <property name="username" value="root"/>
+        <property name="password" value="11111"/>
+    </properties>
+
+    <!--标准的日志工厂实现-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+
+        <!--是否开启驼峰命名规则（camel case）映射-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--可以给实体类起别名-->
+    <typeAliases>
+        <package name="com.pojo"/>
+    </typeAliases>
+
+
+    <environments default="development">
+        <environment id="development">
+            <!--事务管理器-->
+            <transactionManager type="JDBC"/>
+            <!--数据源-->
+            <dataSource type="POOLED">
+                <!--连接数据库的参数-->
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+
+    </environments>
+
+    <!--绑定接口-->
+    <mappers>
+<!--        <mapper resource="com/dao/TeacherMapper.xml"/>-->
+<!--        <mapper class="com.dao.TeacherMapper"/>-->
+<!--        <mapper class="com.dao.StudentMapper"/>-->
+        <package name="com.dao"/>
+    </mappers>
+
+</configuration>
